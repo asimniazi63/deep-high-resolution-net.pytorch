@@ -146,8 +146,8 @@ The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed. 
 
 
 ### Inference
-**From Videos** refer to `demo/readme.md`
-**From Images** Refer to the script `inference-image.py` in which '--file arugment' argument is for image as input result will stored in `outputDir`. An image is saved with 2D joints detected and CSV file containing 2D Coordiantes
+**From Videos** refer to `demo/readme.md` <br>
+**From Images** Refer to the script `inference-image.py` in which '--file arugment' argument is for image as input result will stored in `outputDir`. An image is saved with 2D joints detected and CSV file containing 2D Coordiantes <br><br>
 `$ python inference-image.py --cfg inference-config.yaml --file abc.png --writeBoxFrames --inferenceFps 1  --outputDir output  TEST.MODEL_FILE ../models/pytorch/pose_coco/pose_hrnet_w32_256x192.pth`
 ### Data preparation
 **For MPII data**, please download from [MPII Human Pose Dataset](http://human-pose.mpi-inf.mpg.de/). The original annotation files are in matlab format. We have converted them into json format, you also need to download them from [OneDrive](https://1drv.ms/f/s!AhIXJn_J-blW00SqrairNetmeVu4) or [GoogleDrive](https://drive.google.com/drive/folders/1En_VqmStnsXMdldXA6qpqEyDQulnmS3a?usp=sharing).
